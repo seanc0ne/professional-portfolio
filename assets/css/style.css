@@ -27,13 +27,14 @@
         background-position: 80%;
         z-index: 9999;
         border-radius: 10px;
+        margin: 10px 10px 10px 10px;
     }
   
     header h1 {
       font-weight: bold;
       font-size: 36px;
       color: whitesmoke;
-      margin: 0
+      margin: 10px 10px 10px 10px;
       display: flex;
       text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
@@ -70,9 +71,9 @@
     }
 
     .hero {
-        height: 800px;
+        height: 500px;
         width: 100%;
-        margin-bottom: 25px;
+        margin: 10px 10px;
         background-image: url("../images/hero.jpg");
         background-size: cover;
         background-position: center;
@@ -80,7 +81,7 @@
       }
 
       .content div {
-        margin-bottom: 20px;
+        margin: 10px 10px 10px 10px;
         padding: 50px;
         height: 150px;
         font-family: Helvetica, Arial, sans-serif;
@@ -94,10 +95,10 @@
     }
     
     .content h2 {
-        margin-bottom: 20px;
+        margin: 10px 10px 10px 10px;
         font-size: 36px;
     }
 
     .my-applications {
-        
+
     }
