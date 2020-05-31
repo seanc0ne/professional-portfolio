@@ -97,6 +97,11 @@
         margin: 10px 10px 10px 10px;
         font-size: 36px;
     }
+    
+    .grid-container {
+      display: grid;
+      grid-gap: 50px;
+    }
 
     .my-applications {
 
