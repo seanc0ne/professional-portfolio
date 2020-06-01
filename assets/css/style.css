@@ -19,8 +19,6 @@
       flex-wrap: wrap;
       justify-content: space-between;
       background-color: black;
-      position: -webkit-sticky;
-      position: sticky;
       top: 0; 
       background-size: cover;
       background-position: center;  
@@ -107,6 +105,7 @@
       grid-template-columns: repeat(8, 1fr);
       grid-template-rows: repeat(8, 5vw);
       grid-gap: 0px;
+      align-items: stretch;
     }
 
     .grid-item {
