@@ -9,25 +9,25 @@
     --tertiary-color: pink;
   }
     body {
-        color: black;
-        font-family: Times, Times New Roman, serif;
+      color: black;
+      font-family: Times, Times New Roman, serif;
     }
   
     header {
-        padding: 20px 35px;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        background-color: black;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0; 
-        background-size: cover;
-        background-position: center;  
-        background-attachment: fixed;
-        background-position: 80%;
-        z-index: 9999;
-        border-radius: 10px;
-        margin: 10px 10px 10px 10px;
+      padding: 20px 35px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      background-color: black;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0; 
+      background-size: cover;
+      background-position: center;  
+      background-attachment: fixed;
+      background-position: 80%;
+      z-index: 9999;
+      border-radius: 10px;
+      margin: 10px 10px 10px 10px;
     }
   
     header h1 {
@@ -70,35 +70,35 @@
     }
 
     .hero {
-        height: 500px;
-        width: 100%;
-        margin: 10px 10px;
-        background-image: url("../images/hero.jpg");
-        background-size: cover;
-        background-position: center;
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-      }
+      height: 500px;
+      margin: 10px 10px;
+      background-image: url("../images/hero.jpg");
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
 
-      .content div {
-        margin: 10px 10px 10px 10px;
-        padding: 50px;
-        height: 150px;
-        font-family: Times, Times New Roman, serif;
-        background-color: black;
-        color: white;
-        border-radius: 10px;
+    .content .about-me,
+    .content .my-applications,
+    .content .contact-me {
+      margin: 10px 10px 10px 10px;
+      padding: 50px;
+      font-family: Times, Times New Roman, serif;
+      background-color: black;
+      color: white;
+      border-radius: 10px;
     }
     
     .content img {
-        max-height: 200px;
+      max-height: 200px;
     }
     
     .content h2 {
-        margin: 10px 10px 10px 10px;
-        font-size: 36px;
+      margin: 10px 10px 10px 10px;
+      font-size: 36px;
     }
     
     .grid-container {
@@ -110,28 +110,27 @@
       flex="flex-wrap: ;"
     }
 
-    .contact-me {
-      color: white
+    .contact-me a {
+      color: white;
+      text-decoration: none;
     }
 
-      /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-  @media screen and (max-width: 980px) {
-    header {
-      padding-bottom: 0;
-      position: relative
-      justify-content: center;
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    position: relative
+    justify-content: center;
     }
   
-    header nav ul {
-      margin-top: 20px;
-      width: 100%;
-      justify-content: center;
-    }
-
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
     header nav ul li a {
       font-size: 20px;
     }
-  
   }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -139,8 +138,6 @@
   section {
     padding: 30px 15px;
   }
-
-
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
