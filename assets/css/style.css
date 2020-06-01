@@ -111,6 +111,11 @@
       color: white;
     }
 
+    .grid-item:hover {
+      color: pink;
+      opacity: 0.8;
+    }
+
     .bottom-left {
       position: absolute;
       bottom: 8px;
