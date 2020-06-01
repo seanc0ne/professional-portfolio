@@ -8,7 +8,7 @@ My second project is to present a deployed portfolio of work samples for prospec
 
 ## Link
 
-[First Project](https://seanc0ne.github.io/professional-portfolio/)
+[Professional Portfolio](https://seanc0ne.github.io/professional-portfolio/)
 
 ## Screenshot
 
