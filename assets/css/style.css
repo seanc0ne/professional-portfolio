@@ -101,16 +101,18 @@
     }
     
     .grid-container {
-      display: grid;
+      display: flex;
       grid-template-columns: repeat(8, 1fr);
       grid-template-rows: repeat(8, 5vw);
       grid-gap: 0px;
-      align-items: stretch;
+      /* align-items: stretch; */
+      justify-content: stretch;
     }
 
     .grid-item {
       position: relative;
       color: white;
+      grid-column: 2/span 3;
     }
 
     .grid-item:hover {
@@ -124,37 +126,40 @@
       object-fit: cover;
     }
 
-    .rhiannon {
-      grid-column-start: 1;
-      grid-column-end 9;
+    .something-vegan {
+      /* grid-column-start: 1;
+      grid-column-end: 9;
       grid-row-start: 1;
-      grid-row-end: 5;
+      grid-row-end: 5; */
+      display: grid;
+      grid-row-start: span 3;
+      position: relative;
     }
 
     .landslide {
       grid-column-start: 5;
-      grid-column-end 5;
+      grid-column-end: 5;
       grid-row-start: 5;
       grid-row-end: 7;
     }
 
     .gypsy {
       grid-column-start: 7;
-      grid-column-end 5;
+      grid-column-end: 5;
       grid-row-start: 7;
       grid-row-end: 9;
     }
 
     .sorcerer {
       grid-column-start: 5;
-      grid-column-end 9;
+      grid-column-end: 9;
       grid-row-start: 5;
       grid-row-end: 7;
     }
 
     .sara {
       grid-column-start: 5;
-      grid-column-end 9;
+      grid-column-end: 9;
       grid-row-start: 7;
       grid-row-end: 9;
     }
@@ -166,7 +171,7 @@
     }
 
     .about-me {
-      flex="flex-wrap: ;"
+      flex : 'flex-wrap';
     }
 
     .contact-me a {
@@ -178,7 +183,7 @@
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
-    position: relative
+    position: relative;
     justify-content: center;
   }
 
